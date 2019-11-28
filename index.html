@@ -5,13 +5,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>YouTube video player page</title>
+    <title>YouTube video player clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://freepngimg.com/download/youtube/77758-logo-live-computer-youtube-icons-png-download-free.png">
+    <link rel="stylesheet" href="style.css">
     <!--[if lt IE 9]>
         <script src="/js/html5shiv.js"></script>
       <![endif]-->
 </head>
 
 <body>
+    <!-- old browser warning -->
+    <!--[if lt IE 8]>
+                  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+              <![endif]-->
+    <div class="container">
+
+        <header>
+            <div class="menu-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="youtube-logo">
+                <img class="logo-img" src="https://freepngimg.com/download/youtube/77758-logo-live-computer-youtube-icons-png-download-free.png" alt="Youtube logo">
+                <span class="logo-text">YouTube</span> <span class="country">ZA</span>
+                <form class="search-box" action="/action_page.php">
+                    <input type="text" placeholder="Search" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <div class="nav-icons">
+                    <i class="material-icons">video_call</i>
+                    <i class="material-icons">apps</i>
+                    <i class="material-icons">notifications</i>
+                    <i class="material-icons"><span>camera</span></i>
+                </div>
+            </div>
+        </header>
+
+        <section class="youtube-player">
+            <div class="play-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TUNioiT5npk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1>Sophia The Robot | Carte Blanche | M-Net</h1>
+                <p>60,847 views•Jul 29, 2019 <span>
+                    <span class="icon-text"><i class="material-icons">thumb_up</i>655</span>
+                    <span class="icon-text"><i class="material-icons">thumb_down</i>65</span>
+                    <span class="icon-text"><i class="material-icons">reply</i>SHARE</span>
+                    <span class="icon-text"><i class="material-icons">playlist_add</i>SAVE</span>
+                    <i>...</i>
+                    </span>
+                </p>
+            </div>
+            <hr>
+            <div class="video-description">
+                <img class="channel-logo" src="https://yt3.ggpht.com/a/AGF-l7_t4g5wBOiuh0oTiOqXy-_HQeTOM0Z6ztlCeg=s48-c-k-c0xffffffff-no-rj-mo" alt="cartblanch">
+                <span>Carte Blanche</span>
+                <button class="subscribe-btn">SUBSCRIBE</button>
+            </div>
+            <p>From the right angle and dressed in fine couture, she looks fully human and strikingly beautiful. With her high cheekbones and petite frame, it’s only on closer inspection that the gleaming wires in her half-exposed brain reveal Sophia’s true
+                nature as a humanoid robot. She was developed
+            </p>
+            <h1>SHOW MORE</h1>
+
+            <hr>
+            <p>Comments are turned off</p>
+
+        </section>
+        <aside class="video-thumbnail">
+            <div>
+                <h1>Up next</h1>
+                <span><i class="material-icons">
+                    toggle_on
+                </i>AUTOPLAY</span>
+            </div>
+            <div class="autoplay-video">
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/Io6xuGmS5pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info"><h1>
+                My Greatest Weakness is Curiosity | Sophia the Robot at</h1> 
+                <p>Brain Bar</p>
+                <p>1.2M views</p></span>
+                <hr>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/HcyJWG3w_XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/IHc5Zt7qT6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/wozYnQO3Qto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/W8mX4cIgKHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/YsZ90xJHrqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/GzdY3gwE0WQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/Z3IN9Ewtv1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/Pszgygw_0lQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/G-zyTlZQYpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <iframe width="210" height="112" src="https://www.youtube.com/embed/omgJi5-YT6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-info">
+                    <h1>
+                        My Greatest Weakness is Curiosity | Sophia the Robot at</h1>
+                    <p>Brain Bar</p>
+                    <p>1.2M views</p>
+                </span>
+
+                <h1>SHOW MORE</h1>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </aside>
+    </div>
 
 </body>
 
