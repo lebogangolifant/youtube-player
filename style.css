@@ -8,10 +8,9 @@
 
 body {
     color: #222;
-    margin: 0;
-    padding: 0;
     font-size: 13px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 
 .container {
@@ -27,7 +26,6 @@ header {
     position: relative;
     margin: 1px 5px 0 5px;
     background: transparent;
-    border: 1px solid #606060;
 }
 
 
@@ -37,7 +35,7 @@ header {
     display: block;
     cursor: pointer;
     float: left;
-    margin-top: 12px;
+    margin-top: 3px;
 }
 
 .menu-icon>div {
@@ -69,8 +67,8 @@ header {
     font-size: 12px;
     color: #606060;
     position: absolute;
-    top: 9px;
-    left: 188px;
+    top: 2px;
+    left: 198px;
 }
 
 
@@ -90,7 +88,7 @@ form.search-box input {
     font-size: 15px;
     border: 1px solid grey;
     width: 600px;
-    margin-top: 6px;
+    margin-top: 2px;
     margin-left: 3px;
     background: transparent;
 }
@@ -112,7 +110,7 @@ form.search-box button {
     background: #f1eded;
     color: grey;
     font-size: 15px;
-    margin-top: 6px;
+    margin-top: 2px;
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
@@ -145,6 +143,119 @@ i.material-icons {
     font-size: 40px;
     padding-top: 6px;
     position: absolute;
-    top: 2px;
+    top: -6px;
     right: 30px;
+}
+
+
+/* main section */
+
+section {
+    position: relative;
+    display: flex;
+    background: #fafafa;
+}
+
+.youtube-player {
+    background: #fafafa;
+    /*margin: auto;*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.play-video iframe {
+    margin-left: 90px;
+}
+
+.play-video h1 {
+    margin: 16px 0 0 90px;
+}
+
+.play-video p {
+    margin: 5px 0 6px 90px;
+}
+
+.icon-text {
+    font-size: 13px;
+}
+
+.options-icons {
+    position: relative;
+    left: 450px;
+}
+
+.options-icons i {
+    font-size: 16px;
+    position: relative;
+    left: 14px;
+}
+
+hr {
+    margin: 12px 0 0 90px;
+    width: 54%;
+}
+
+
+/* aside section */
+
+aside {
+    display: block;
+    margin-left: 20px;
+    float: right;
+    position: absolute;
+    left: 800px;
+}
+
+.video-thumbnail {
+    float: right;
+    margin-left: 20px;
+}
+
+.video-description {
+    margin: 8px 0 0 90px;
+}
+
+.channel-logo {
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.channel-logotxt span {
+    vertical-align: middle;
+    margin: -200px 0 0 0;
+}
+
+.subscribe-btn {
+    vertical-align: middle;
+    margin: -18px 0 40px 470px;
+    font-size: 13px;
+    padding: 6px 6px;
+    color: #fff;
+    background-color: #dd2323;
+    border: none;
+}
+
+.description-text p,
+h1 {
+    margin: 2px 0 0 90px;
+}
+
+.description-text p {
+    word-wrap: break-word;
+    width: 610px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.description-text h1 {
+    position: relative;
+    left: ;
+    top: 3px;
+    font-size: 12px;
+}
+
+.comments {
+    margin: 2px 0 0 90px;
 }
