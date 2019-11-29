@@ -1,5 +1,5 @@
 # YouTube Video Play Clone
-The goal is to reproduce a replica of YouTube player page with focus on making media elements
+The goal is to reproduce a replica of YouTube player page with focus on making media elements show up.
 
 ## Task
 - [x] Embedding images and video
