@@ -311,21 +311,17 @@ aside {
 .video-toggle h1 {
     margin: 40px 0 0 0;
     font-size: 16px;
-    float: right;
     color: #535151;
 }
 
 .toggle-text {
-    margin: 0 0 0 150px;
-    padding: 4px 8px;
-    float: right;
+    margin: 0 0 0 0;
     color: #535050;
     font-size: 15px;
 }
 
 #toggle {
     font-size: 46px;
-    float: right;
-    margin: -10px 0 7px 5px;
     color: #aaa5a5;
+    margin: 0 0 0 70px;
 }
