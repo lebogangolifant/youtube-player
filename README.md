@@ -1,4 +1,4 @@
-# YouTube Video Play Clone
+# YouTube Video Player Clone
 The goal is to reproduce a replica of YouTube player page with focus on making media elements show up.
 
 ## Task
